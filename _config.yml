@@ -1,1 +1,41 @@
-remote_theme: daattali/beautiful-jekyll@6.0.1
+title: supplydata
+email: chris@blackbird.im
+description: >- 
+  Expert data analytics and business intelligence solutions specializing in 
+  supply chain optimization, retail analytics, and operational efficiency improvements.
+baseurl: ""
+url: "https://www.supplydata.eu"
+author: Chris Blackbird
+
+# Social Media and Contact
+github_username: chrisblackbird
+linkedin_username: chrisblackbird
+formcarry: rCYxNYJ0xPk
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-feed
+  - jekyll-archives
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-leaflet
+
+collections:
+  projects:
+    output: true
+  case_studies:
+    output: true
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive
+    tag: archive
+  permalinks:
+    category: '/category/:name/'
+    tag: '/tag/:name/'
