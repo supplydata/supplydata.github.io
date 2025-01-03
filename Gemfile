@@ -11,5 +11,3 @@ group :jekyll_plugins do
   gem "jekyll-leaflet"
   gem 'webrick'
 end
-
-gem "webrick", "~> 1.8"
