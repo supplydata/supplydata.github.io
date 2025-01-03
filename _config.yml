@@ -1,3 +1,5 @@
+remote_theme: YJPL/Supply
+
 title: supplydata
 email: chris@blackbird.im
 description: >- 
@@ -40,6 +42,6 @@ jekyll-archives:
     category: '/category/:name/'
     tag: '/tag/:name/'
 
-    # Include directories
+
 include:
   - _pages
