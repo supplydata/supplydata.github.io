@@ -16,9 +16,9 @@
 footer:
   - title: SupplyData
     links:
-      - name: Data analytics and BI solutions for supply chain and retail.
+      - name: "Data analytics and BI solutions for supply chain and retail."
         link: /
-  
+
   - title: General
     links:
       - name: Products
@@ -37,9 +37,9 @@ footer:
       - name: Tutorials
         link: /tutorials/
 
-  - title: Contact              
-    links:                      
-      - name: Need help with something?
+  - title: Contact
+    links:
+      - name: "Need help with something?"
         link: /contact/
-      - name: Get in touch
+      - name: "Get in touch"
         link: /contact/
