@@ -1,15 +1,13 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3.2"
-gem "logger"
-gem "csv"
-gem "ostruct"
-gem "base64"
-gem "bigdecimal"
+gem "github-pages", group: :jekyll_plugins
 
-# Add Jekyll plugins
-gem "jekyll-feed"
-gem "jekyll-archives"
-gem "jekyll-seo-tag"
-gem "jekyll-sitemap"
-gem "jekyll-leaflet"
+group :jekyll_plugins do
+  gem "jekyll-feed"
+  gem "jekyll-archives"
+  gem "jekyll-seo-tag"
+  gem "jekyll-sitemap"
+  gem "jekyll-leaflet"
+end
+
+gem "webrick", "~> 1.8"
