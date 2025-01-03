@@ -1,0 +1,45 @@
+- name: Products
+  link: /
+  new_window: false
+  highlight: true
+
+- name: About
+  link: /about/
+  new_window: false
+  highlight: false
+
+- name: Contact
+  link: /contact/
+  new_window: false
+  highlight: false
+
+footer:
+  - title: SupplyData
+    links:
+      - name: "Data analytics and BI solutions for supply chain and retail."
+        link: /
+
+  - title: General
+    links:
+      - name: Products
+        link: /
+      - name: About
+        link: /about/
+      - name: Blog
+        link: /blog/
+
+  - title: Help
+    links:
+      - name: Support
+        link: /support/
+      - name: Privacy
+        link: /privacy/
+      - name: Tutorials
+        link: /tutorials/
+
+  - title: Contact
+    links:
+      - name: "Need help with something?"
+        link: /contact/
+      - name: "Get in touch"
+        link: /contact/
