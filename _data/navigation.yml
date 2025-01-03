@@ -37,9 +37,9 @@ footer:
       - name: Tutorials
         link: /tutorials/
 
-  - title: Contact
-    links:
+  - title: Contact              
+    links:                      
       - name: Need help with something?
-      - link: /contact/
+        link: /contact/
       - name: Get in touch
         link: /contact/
