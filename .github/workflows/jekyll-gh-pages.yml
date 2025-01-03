@@ -25,11 +25,19 @@ jobs:
         with:
           ruby-version: '3.2'
           bundler-cache: true
+      - name: Debug
+        run: |
+          echo "Content of navigation.yml:"
+          cat _data/navigation.yml
+          echo "File encoding:"
+          file _data/navigation.yml
+          echo "Hex dump of first few bytes:"
+          hexdump -C _data/navigation.yml | head -n 3
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
       - name: Build with Jekyll
-        run: bundle exec jekyll build
+        run: bundle exec jekyll build --trace
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
