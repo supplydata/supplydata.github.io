@@ -45,3 +45,9 @@ jekyll-archives:
 
 include:
   - _pages
+
+  defaults:
+  - scope:
+      path: "_data"
+    values:
+      encoding: "utf-8"
