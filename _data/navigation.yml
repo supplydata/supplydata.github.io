@@ -16,7 +16,7 @@
 footer:
   - title: SupplyData
     links:
-      - name: Data analytics and business intelligence solutions specializing in supply chain, retail, and operational efficiency.
+      - name: Data analytics and BI solutions for supply chain and retail.
         link: /
   
   - title: General
@@ -40,6 +40,6 @@ footer:
   - title: Contact
     links:
       - name: Need help with something?
-        link: false
+      - link: /contact/
       - name: Get in touch
         link: /contact/
