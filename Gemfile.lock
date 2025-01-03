@@ -332,12 +332,13 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll
   jekyll-archives
   jekyll-feed
   jekyll-leaflet
   jekyll-seo-tag
   jekyll-sitemap
-  webrick (~> 1.8)
+  webrick
 
 BUNDLED WITH
    2.6.2
