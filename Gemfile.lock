@@ -332,7 +332,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll
   jekyll-archives
   jekyll-feed
   jekyll-leaflet
