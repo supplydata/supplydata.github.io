@@ -46,7 +46,7 @@ jekyll-archives:
 include:
   - _pages
 
-  defaults:
+defaults:
   - scope:
       path: "_data"
     values:
